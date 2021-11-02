@@ -1,0 +1,302 @@
+html {
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-family: "NanumBarunGothic", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+a:any-link {
+  text-decoration: none;
+}
+
+.divider {
+  width: 10px;
+  display: inline-block;
+}
+
+header {
+  position: absolute;
+  padding: 35px 50px 17px;
+  right: 0px;
+  left: 0px;
+}
+
+header img {
+  height: 33px;
+  z-index: 1;
+  position: relative;
+}
+
+.content,
+.page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.content .page:nth-child(1) {
+  background-image: url(./../assets/images/MainBg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.content .page:nth-child(2) {
+  background-color: rgb(250, 250, 250);
+}
+
+.content .page:nth-child(3) {
+  background-color: rgb(255, 255, 255);
+}
+
+.content .page:nth-child(4) {
+  background-color: rgb(250, 250, 250);
+}
+
+.content .page:nth-child(5) {
+  background-color: rgb(253, 244, 249);
+}
+
+.content .page .content-wrap {
+  position: relative;
+  margin: auto;
+  width: 1040px;
+  height: 100%;
+}
+
+.content .page .content-wrap .sep-h-2 {
+  display: flex;
+}
+
+.content .page .content-wrap .text-area {
+  position: absolute;
+  display: none;
+  font-size: 18px;
+}
+
+.content .page .content-wrap .img-area {
+  display: none;
+  position: absolute;
+}
+
+.content .page .content-wrap .img-phone {
+  border-radius: 25px;
+  box-shadow: 0px 3px 20px 0px #7d7d7d85;
+}
+
+.content .page .content-wrap .img-area.s1 img {
+  width: 330px;
+}
+.content .page .content-wrap .img-area.s2 img {
+  width: 308px;
+}
+
+.page.temp-1 > .content-wrap .text-area {
+  inset: 190px auto auto 100px;
+  color: #ffffff;
+}
+
+.page.temp-1 > .content-wrap .text-area .title-main {
+  font-size: 90px;
+  margin: 20px 0 0 -10px;
+  line-height: 1.1em;
+}
+
+.page.temp-1 > .content-wrap .text-area .title-main > span {
+  color: rgb(253, 071, 147);
+}
+
+.page.temp-1 > .content-wrap .text-area .btn-app-install {
+  width: 200px;
+  height: 50px;
+  margin: 60px 0 0 0;
+}
+
+.page.temp-1 > .content-wrap .text-area .btn-app-install a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: bold;
+  transition: all 200ms ease-in-out 0s;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.page.temp-1 > .content-wrap .text-area .btn-app-install a:hover {
+  color: rgb(255, 075, 148);
+  background-color: rgb(255, 255, 255);
+}
+
+.page.temp-1 > .content-wrap .img-area {
+  inset: 220px 100px auto auto;
+}
+
+.page.temp-2,
+.page.temp-4,
+.page.temp-5 {
+  text-align: center;
+}
+
+.page.temp-2 > .content-wrap .text-area,
+.page.temp-4 > .content-wrap .text-area {
+  width: 100%;
+  top: 30px;
+}
+
+.page.temp-2 > .content-wrap .text-area .title-main,
+.page.temp-4 > .content-wrap .text-area .title-main {
+  font-size: 39px;
+  margin: 20px 0 0 -10px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+
+.page.temp-2 > .content-wrap .text-area p,
+.page.temp-4 > .content-wrap .text-area p {
+  line-height: 1.5em;
+  font-weight: 100;
+}
+
+.page.temp-2 > .content-wrap .img-area,
+.page.temp-4 > .content-wrap .img-area {
+  top: 320px;
+  width: 100%;
+}
+
+.page.temp-3 > .content-wrap .text-area .title-main {
+  font-size: 45px;
+  margin: 0 0 20px 0px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+
+.page.temp-3 > .content-wrap .text-area {
+  inset: 35vh auto auto auto;
+  color: #000000;
+}
+
+.page.temp-3 > .content-wrap .img-area {
+  float: right;
+  top: 22vh;
+  /* inset: 20vh 100px auto auto; */
+  right: -127px;
+  width: 639px;
+}
+.page.temp-3 > .content-wrap .img-area .img-divider {
+  margin-bottom: 13px;
+  margin-left: -54px;
+}
+
+.page.temp-5 .content-header {
+}
+.page.temp-5 .content-header > div:nth-child(1) {
+  position: absolute;
+  left: 45px;
+  top: 35px;
+}
+.page.temp-5 .content-header > div:nth-child(1) img {
+  width: 80px;
+}
+.page.temp-5 .content-header > div:nth-child(2) {
+  position: absolute;
+  right: 45px;
+  top: 35px;
+}
+.page.temp-5 .content-header > div:nth-child(2) img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.page.temp-5 > .content-wrap .text-area .title-main {
+  font-size: 30px;
+  margin: 0 0 20px 0px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+
+.page.temp-5 > .content-wrap .text-area p {
+  font-size: 19px;
+  line-height: 1.5em;
+  font-weight: 100;
+  color: #000000;
+}
+
+.page.temp-5 > .content-wrap .text-area {
+  inset: 30vh auto auto auto;
+  color: rgb(255, 075, 148);
+  width: 100%;
+}
+
+.page.temp-5 > .content-wrap .btn-app-install-android {
+  margin: 40px 0 0 0;
+}
+
+.page.temp-5 > .content-wrap .btn-app-install-android a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(255, 075, 148);
+  font-weight: bold;
+  transition: all 200ms ease-in-out 0s;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.page.temp-5 > .content-wrap .text-area .btn-app-install-android a:hover {
+  color: rgb(255, 075, 148);
+  background-color: rgb(255, 255, 255);
+  border:1px solid rgb(255, 075, 148);
+}
+
+.page.temp-5 .content-footer {
+  text-align: left;
+  width: 100%;
+  height: 135px;
+  background-color: rgb(70 70 70);
+  position: absolute;
+  bottom: 0px;
+  color: rgb(255 255 255 / 50%);
+}
+
+.page.temp-5 .content-footer > div {
+  padding: 14px 0px 0px 0px;
+  text-align: center;
+}
+
+.page.temp-5 .content-footer > div > div:first-child {
+  font-size: 13px;
+  font-weight: bold;
+}
+.page.temp-5 .content-footer > div > div {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.page.temp-5 .content-footer a {
+  text-decoration: none;
+  color: rgb(255 255 255);
+}
