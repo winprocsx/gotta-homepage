@@ -1,5 +1,5 @@
 html {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 html,
@@ -28,14 +28,14 @@ a:any-link {
 
 header {
   position: absolute;
-  padding: 35px 50px 17px;
+  padding: 24px 24px;
   right: 0px;
   left: 0px;
 }
 
 header img {
-  height: 33px;
-  z-index: 1;
+  height: 24px;
+  z-index: 5;
   position: relative;
 }
 
@@ -44,6 +44,7 @@ header img {
   width: 100%;
   height: 100%;
   position: relative;
+  z-index: 3;
 }
 
 .content .page:nth-child(1) {
@@ -71,7 +72,7 @@ header img {
 .content .page .content-wrap {
   position: relative;
   margin: auto;
-  width: 1040px;
+  
   height: 100%;
 }
 
@@ -83,11 +84,20 @@ header img {
   position: absolute;
   display: none;
   font-size: 18px;
+  top: 10vh;
+  margin: auto;
+  right:0px;
+  left:0px;
 }
 
 .content .page .content-wrap .img-area {
   display: none;
   position: absolute;
+  margin: auto;
+  right:0px;
+  left:0px;
+  top:58vh;
+  width: 50vw;
 }
 
 .content .page .content-wrap .img-phone {
@@ -96,21 +106,57 @@ header img {
 }
 
 .content .page .content-wrap .img-area.s1 img {
-  width: 330px;
+  width: 50vw;
 }
+
 .content .page .content-wrap .img-area.s2 img {
-  width: 308px;
+  width: 245px;
+  position: absolute;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.content .page .content-wrap .img-area.s2 img.s2{
+  position: inherit;
+  border-radius: 6px;
+  margin-bottom: 13px;
+}
+
+.content .page .content-wrap .img-area.s2 img:nth-child(1) {
+  width: 42vw;
+  left: 20px;
+  top: 43px;
+  z-index: 1;
+}
+
+.content .page .content-wrap .img-area.s2 img:nth-child(5) {
+  width: 51vw;
+  left: 22px;
+  right: 20px;
+  z-index: 2;
+}
+.content .page .content-wrap .img-area.s2 img:nth-child(3) {
+  width: 42vw;
+  right: 20px;
+  top: 43px;
+  z-index: 1;
 }
 
 .page.temp-1 > .content-wrap .text-area {
-  inset: 190px auto auto 100px;
+  /* inset: 190px auto auto 100px; */
   color: #ffffff;
 }
 
+.content .page .content-wrap .text-area p{
+  text-align: center;
+  margin-top: 11px;
+}
+
 .page.temp-1 > .content-wrap .text-area .title-main {
-  font-size: 90px;
-  margin: 20px 0 0 -10px;
+  font-size: 50px;
+  margin: 20px 0;
   line-height: 1.1em;
+  text-align: center;
 }
 
 .page.temp-1 > .content-wrap .text-area .title-main > span {
@@ -118,9 +164,9 @@ header img {
 }
 
 .page.temp-1 > .content-wrap .text-area .btn-app-install {
-  width: 200px;
+  /* width: 181px; */
   height: 50px;
-  margin: 60px 0 0 0;
+  text-align: center;
 }
 
 .page.temp-1 > .content-wrap .text-area .btn-app-install a {
@@ -146,10 +192,11 @@ header img {
 }
 
 .page.temp-1 > .content-wrap .img-area {
-  inset: 220px 100px auto auto;
+  /* inset: 220px 100px auto auto; */
 }
 
 .page.temp-2,
+.page.temp-3,
 .page.temp-4,
 .page.temp-5 {
   text-align: center;
@@ -161,16 +208,24 @@ header img {
   top: 30px;
 }
 
+.page.temp-3 > .content-wrap .text-area{
+  width: 100%;
+  top: 80px;
+}
+
 .page.temp-2 > .content-wrap .text-area .title-main,
+.page.temp-3 > .content-wrap .text-area .title-main,
 .page.temp-4 > .content-wrap .text-area .title-main {
-  font-size: 39px;
-  margin: 20px 0 12px -10px;
+  font-size: 30px;
+  margin: 20px 0 0 -10px;
   line-height: 1.3em;
   font-weight: 400;
 }
 
 .page.temp-2 > .content-wrap .text-area p,
+.page.temp-3 > .content-wrap .text-area p,
 .page.temp-4 > .content-wrap .text-area p {
+  font-size: 16px;
   line-height: 1.5em;
   font-weight: 100;
 }
@@ -181,7 +236,15 @@ header img {
   width: 100%;
 }
 
-.page.temp-3 > .content-wrap .text-area .title-main {
+.page.temp-3 > .content-wrap .img-area{
+  top: 320px;
+  width: 100%;
+}
+
+.page.temp-3 > .content-wrap .text-area p span {
+  display: block;
+}
+/* .page.temp-3 > .content-wrap .text-area .title-main {
   font-size: 45px;
   margin: 0 0 20px 0px;
   line-height: 1.3em;
@@ -196,14 +259,13 @@ header img {
 .page.temp-3 > .content-wrap .img-area {
   float: right;
   top: 22vh;
-  /* inset: 20vh 100px auto auto; */
   right: -127px;
   width: 639px;
 }
 .page.temp-3 > .content-wrap .img-area .img-divider {
   margin-bottom: 13px;
   margin-left: -54px;
-}
+} */
 
 .page.temp-5 .content-header {
 }
@@ -219,6 +281,7 @@ header img {
   position: absolute;
   right: 45px;
   top: 35px;
+  z-index: 5;
 }
 .page.temp-5 .content-header > div:nth-child(2) img {
   width: 50px;
@@ -300,3 +363,6 @@ header img {
   text-decoration: none;
   color: rgb(255 255 255);
 }
+
+
+
