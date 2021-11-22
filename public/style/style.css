@@ -206,7 +206,7 @@ header img {
 }
 
 .page.temp-5 .content-header {
-  
+
 }
 .page.temp-5 .content-header > div:nth-child(1) {
   position: absolute;
@@ -220,7 +220,7 @@ header img {
   position: absolute;
   right: 45px;
   top: 35px;
-  z-index: 10px;
+  z-index: 10;
 }
 .page.temp-5 .content-header > div:nth-child(2) img {
   width: 50px;
