@@ -98,7 +98,7 @@ header img {
   right:0px;
   left:0px;
   top:58vh;
-  width: 50vw;
+  width: 60vw;
 }
 
 .content .page .content-wrap .img-phone {
@@ -107,7 +107,7 @@ header img {
 }
 
 .content .page .content-wrap .img-area.s1 img {
-  width: 50vw;
+  width: 60vw;
 }
 
 .content .page .content-wrap .img-area.s2 img {
@@ -206,7 +206,7 @@ header img {
 .page.temp-2 > .content-wrap .text-area,
 .page.temp-4 > .content-wrap .text-area {
   width: 100%;
-  top: 30px;
+  top: 8vh;
 }
 
 .page.temp-3 > .content-wrap .text-area{
@@ -272,20 +272,20 @@ header img {
 }
 .page.temp-5 .content-header > div:nth-child(1) {
   position: absolute;
-  left: 45px;
-  top: 35px;
+  left: 20px;
+  top: 20px;
 }
 .page.temp-5 .content-header > div:nth-child(1) img {
-  width: 80px;
+  height: 24px;
 }
 .page.temp-5 .content-header > div:nth-child(2) {
   position: absolute;
-  right: 45px;
-  top: 35px;
+  right: 20px;
+  top: 20px;
   z-index: 5;
 }
 .page.temp-5 .content-header > div:nth-child(2) img {
-  width: 50px;
+  width: 30px;
   margin-left: 10px;
 }
 

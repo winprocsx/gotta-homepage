@@ -54,12 +54,13 @@ window.onload = function () {
     $html.animate({ scrollTop: 0 }, { duration: 10, queue: true });
 
     fadeInTextArea("1", "13vh");
-    fadeInImg("1", "377px");
+    fadeInImg("1", "422px");
 
     $(window).on("scroll", function (e) {
       if ($html.is(":animated")) return;
 
-      if (window.scrollY + $(window).height() / 2 > $(window).height() * page) 
+      // if (window.scrollY + $(window).height() / 2 > $(window).height() * page) 
+      if (window.scrollY + 800 / 2 > 800 * page) 
       {
         if (page == lastPage) return;
         page++;
